@@ -1,0 +1,13 @@
+/****** Object:  Table [dbo].[Employee_Dupes]    Script Date: 1/2/2026 2:21:41 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Employee_Dupes](
+	[employee_id] [int] NULL,
+	[name] [varchar](255) NULL,
+	[SSN] [int] NULL
+) ON [PRIMARY]
+GO
